@@ -1,0 +1,6 @@
+print("servidor iniciando...")
+local comunicate = require("comunicateModule")
+print("modulos carregados!")
+os.execute("cd .. ; cd values ; cd serverStatus ; echo true > active.txt")
+print("valores atualizados!")
+print("servidor iniciado!")
